@@ -1,0 +1,17 @@
+{
+  "name": "majority",
+  "version": "0.0.0",
+  "description": "Master election protocol for master-slave cloud services",
+  "keywords": ["cloud", "election", "master", "slave", "majority"],
+  "author": "Andrey Tarantsov <andreyvit@gmail.com>",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/majority",
+  "scripts": {
+    test: "node ./test.js"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
